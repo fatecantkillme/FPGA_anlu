@@ -1,0 +1,230 @@
+# FPGA Development .gitignore
+# This file ignores compilation outputs and temporary files from FPGA development tools
+
+# ====================
+# Xilinx Vivado
+# ====================
+
+# Vivado project files to ignore
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.xpr.bak
+*.xdc.bak
+
+# Vivado logs and reports
+vivado*.log
+vivado*.jou
+*.rpt
+*.dcp
+*.bit
+*.ltx
+*.mmi
+*.bmm
+*.debug
+*.hwdef
+*.sysdef
+
+# Vivado temporary and cache files
+.Xil/
+*.str
+*.xpe
+*.xml.bak
+*.tcl.bak
+webtalk*
+usage_statistics_webtalk.*
+vivado_pid*.str
+
+# ====================
+# Intel Quartus
+# ====================
+
+# Quartus project output directories
+output_files/
+incremental_db/
+simulation/
+qdb/
+.qsys_edit/
+
+# Quartus compilation files
+*.sof
+*.pof
+*.jdi
+*.pin
+*.summary
+*.done
+*.qws
+*.qtl
+*.qar
+*.qarlog
+*.rpt
+*.smsg
+*.fit.*
+*.map.*
+*.sta.*
+*.asm.*
+*.cmp.*
+*.eda.*
+
+# Quartus temporary files
+*.bak
+*.orig
+PLLJ_PLLSPE_INFO.txt
+*.qip.bak
+*.qsys.bak
+*.sopcinfo.bak
+
+# ====================
+# ModelSim/QuestaSim
+# ====================
+work/
+transcript
+*.wlf
+*.vstf
+vsim.wlf
+*.mpf.bak
+
+# ====================
+# Simulation Files
+# ====================
+*.vcd
+*.shm/
+*.diag
+*.key
+*.log
+*.pb
+
+# ISIM/XSIM simulation files
+isim/
+*.prj
+*.wcfg
+*.wdb
+fuse.log
+*.exe
+isim.log
+isim.wdb
+xsim.dir/
+.Xil/
+*.protoinst
+*.fdo
+*.vho
+*.veo
+
+# ====================
+# Synthesis Files
+# ====================
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.bgn
+*.bld
+*.drc
+*.ll
+*.lso
+*.map
+*.mrp
+*.ncd
+*.ngm
+*.ptwx
+*.twr
+*.twx
+*.unroutes
+*.xpi
+*.xst
+*_summary.html
+*_usage.xml
+webtalk.log
+par_usage_statistics.html
+usage_statistics_webtalk.html
+
+# ====================
+# Platform Studio
+# ====================
+*.make
+*.elf
+*.elf.size
+*.objdump
+*.mem
+
+# ====================
+# Common OS Files
+# ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# ====================
+# Editor Files
+# ====================
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ====================
+# Build and Output Directories
+# ====================
+build/
+dist/
+bin/
+obj/
+temp/
+tmp/
+
+# ====================
+# Other FPGA Tools
+# ====================
+# Lattice Diamond
+*.dir/
+*.tcr
+*.loc
+*.pad
+*.par
+*.prf
+*.lsedata
+
+# Microsemi Libero
+*.prjx.bak
+*.tcl.bak
+component/
+hdl/
+smartgen/
+synthesis/
+designer/
