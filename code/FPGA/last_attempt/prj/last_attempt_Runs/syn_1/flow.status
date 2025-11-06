@@ -1,0 +1,23 @@
+Location         : D:\FPGA\workplace6_2_1\last_attempt\prj\last_attempt_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : last_attempt
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : basic
+Setup            : WNS -5291ps  TNS -6980594ps  NUM_FEPS  3658
+Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  19s(54%)   |    18(56%)    |        591        |        637        
+  optimize_rtl   |    1     |  16s(45%)   |    14(43%)    |        533        |        637        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        84         |        84         
+    read_adc     |    1     |   0s(0%)    |     0(0%)     |        287        |        287        
+    read_sdc     |    1     |   0s(0%)    |     0(0%)     |        287        |        287        
+--------------------------------------------------------------------------------------------------
+      total      |    5     |     35s     |      32       |        591        |        637        
+--------------------------------------------------------------------------------------------------
